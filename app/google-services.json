@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "306648199865",
+    "firebase_url": "https://we-318712-c7a57.firebaseio.com",
+    "project_id": "wesecure-318712",
+    "storage_bucket": "wesecure-318712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306648199865:android:a04c89bb509683dc736168",
+        "android_client_info": {
+          "package_name": "com.example.wesecure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306648199865-q1056jlg0s4qg3eufg6vfa25rcmlhbn2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wesecure",
+            "certificate_hash": "618742a059ac6258de33c31b9fab855e61b067ea"
+          }
+        },
+        {
+          "client_id": "306648199865-2bl8pm38q2p1cblu8c8khgrcic1p2p9r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAabYZszCo42GSTzj9QgK6ijGKGYLzBHp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306648199865-2bl8pm38q2p1cblu8c8khgrcic1p2p9r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

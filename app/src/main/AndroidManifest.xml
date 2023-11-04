@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.wesecure">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WeSecure">
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation">
+        </activity>
+        <activity android:name=".admin.ListOfEmployees" />
+        <activity android:name=".admin.ListOfCompanies" />
+        <activity android:name=".admin.AddCompany" />
+        <activity android:name=".admin.AddEmployee" />
+        <activity android:name=".admin.ListOfVacationRequests" />
+        <activity android:name=".admin.CompanyDetails" />
+        <activity android:name=".admin.EmployeeDetails" />
+        <activity android:name=".admin.AdminHome" />
+        <activity android:name=".employee.VehicleImage" />
+        <activity android:name=".main.ListOfVisitors" />
+        <activity android:name=".employee.VehicleData" />
+        <activity android:name=".employee.Vehicles" />
+        <activity android:name=".main.ListOfVehicles" />
+        <activity android:name=".employee.EmployeeHome" />
+        <activity android:name=".main.Login" />
+        <activity android:name=".employee.QRScanner" />
+        <activity android:name=".employee.UserProfile" />
+        <activity android:name=".employee.Vacations" />
+        <activity android:name=".employee.VisitorData" />
+        <activity android:name=".employee.Visitors" />
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
